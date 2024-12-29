@@ -1,45 +1,37 @@
-TBD: Fill in all sections below, Writing "N/A" if a section is not applicable to your project.
 
 # Overview
-TBD: Add your project overview, including goals and motivation.
-Include at least one block diagram showing all hardware components and interactions.
+The objective of this project is to develop an application that monitors and displays system resources (CPU, memory, disk usage, etc.) of the linux operative system where it is running. It implements a kernel module that collects specific data (kernel memory usage, I/O details, disk space usage) and exposes it through a /proc interface. An application built with ncurses will display this information by interfacing with the device driver. The driver permits to return data formatted, but also to be queried for a single parameter. The threshold for CPU and disk space can be configured using the /proc and if configured can send an alert using a socket by netlink.
 
 
 # Target Build System
-TBD: Mention whether you plan to use buildroot or Yocto.
+Will be uses Buildroot as target build system.
 
 # Hardware Platform
-TBD: Mention hardware platform you plan to use.  Include additional detail about how you plan to support with your build platform, including links to relevant documentation, if not in the list of currently [Supported Hardware](https://github.com/cu-ecen-aeld/aesd-assignments/wiki/Supported-Hardware-Platforms).
-
-TBD: Mention the number and type of boards you would like to borrow from the department for your project or if you plan to source the hardware yourself.
+Platform is a generic Linux. This application can run on every Linux distribution. In this case will be testet on Qemu.
 
 # Open Source Projects Used
-TBD: Mention any open source project content you intend to use with the project, beyond the base platform buildroot/yocto packages already used in assignments.
+Ncurses Library to develop the client application.
 
 # Previously Discussed Content
-TBD: Mention any content covered in previous assignments, lectures, or book sections you plan to use with the project as a basis. For instance, if you plan to use the aesdsocket or aesdchar componets either partially or completely.
+Aeschar driver for the structure of the project
 
 # New Content
-TBD: Mention the new content you plan to cover with your assignment, separating between items we've discussed in class already but not included in previous assignments and items we have not yet discussed in class.
+New content is the use of the /proc file system. 
 
 # Shared Material
-TBD: Detail any portion of the project leveraged from other coursework or using [components from previous semesters](https://github.com/cu-ecen-5013/buildroot-assignments-base/wiki) by yourself or others.
+None for the moment.
 
 # Source Code Organization
-TBD: Modify the content below:
 
-Buildroot or Yocto Repository will be hosted at [TBD]
+[Monitor Buildroot](https://github.com/cu-ecen-aeld/final-project-marcoronk) <br>
+[Monitor Kernel Module](https://github.com/marcoronk/rm_kernel) <br>
+[Monitor Client](https://github.com/marcoronk/rm_client) <br>
 
-ApplicationX code will be hosted in in a repository at [TBD]
 
-We request X additional repositories for application Y and Z.
-
-# Group Overview
-TBD: Fill in this section for group projects, delete it for individual projects
 
 ## Team project members:
 
-TBD: list members.  List high level role in the project for each member
+Marco Ronchini
 
 # Schedule Page
-TBD: Include link to shared schedule wiki page below.
+[Schedule Page](https://github.com/users/marcoronk/projects/5/views/1)
