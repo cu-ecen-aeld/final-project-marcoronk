@@ -1,6 +1,6 @@
 
 # Overview
-The objective of this project is to develop an application that monitors and displays system resources (CPU, memory, disk usage, etc.) of the linux operative system where it is running. It implements a kernel module that collects specific data (kernel memory usage, I/O details, disk space usage) and exposes it through a /proc interface. An application built with ncurses will display this information by interfacing with the device driver. The driver permits to return data formatted, but also to be queried for a single parameter. The threshold for CPU and disk space can be configured using the /proc and if configured can send an alert using a socket by netlink.
+The objective of this project is to develop an application that monitors and displays system resources (CPU, memory, disk usage, etc.) of the linux operative system where it is running. It implements a kernel module that collects specific data (kernel memory usage, I/O details, disk space usage) and exposes it through a /proc interface. A web application developed in PHP will display this information by interfacing with the device driver. The driver return data formatted in key - value, format that can be parsed by the php application. The threshold for CPU and disk space can be configured using the /proc and if configured can send an alert using a socket by netlink.
 
 
 # Target Build System
