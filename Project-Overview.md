@@ -10,7 +10,7 @@ Will be uses Buildroot as target build system.
 Platform is a generic Linux. This application can run on every Linux distribution. In this case will be tested on Qemu and on Raspberry PI4.
 
 # Open Source Projects Used
-[Ncurses](https://invisible-island.net/ncurses/) <br>
+[Php](https://www.php.net) <br>
 [Buildroot](https://buildroot.org/)
 
 # Previously Discussed Content
