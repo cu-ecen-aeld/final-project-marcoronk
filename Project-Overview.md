@@ -7,16 +7,17 @@ The objective of this project is to develop an application that monitors and dis
 Will be uses Buildroot as target build system.
 
 # Hardware Platform
-Platform is a generic Linux. This application can run on every Linux distribution. In this case will be testet on Qemu.
+Platform is a generic Linux. This application can run on every Linux distribution. In this case will be tested on Qemu and on Raspberry PI4.
 
 # Open Source Projects Used
-Ncurses Library to develop the client application.
+[Ncurses](https://invisible-island.net/ncurses/) <br>
+[Buildroot](https://buildroot.org/)
 
 # Previously Discussed Content
 Aeschar driver for the structure of the project
 
 # New Content
-New content is the use of the /proc file system. 
+In this project will be used the /proc.
 
 # Shared Material
 None for the moment.
