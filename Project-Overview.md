@@ -7,7 +7,7 @@ The objective of this project is to develop an application that monitors and dis
 Will be uses Buildroot as target build system.
 
 # Hardware Platform
-Platform is a generic Linux. This application can run on every Linux distribution. In this case will be tested on Qemu and on Raspberry PI4.
+Application run on a generic Linux distro. In this case will be prepared in Qemu and Raspberry PI4.
 
 # Open Source Projects Used
 [Php](https://www.php.net) <br>
