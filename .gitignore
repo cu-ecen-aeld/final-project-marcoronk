@@ -1,0 +1,6 @@
+buildroot/
+*.o
+build/
+.vscode/
+*.log
+
