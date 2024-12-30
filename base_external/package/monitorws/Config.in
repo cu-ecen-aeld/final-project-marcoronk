@@ -1,0 +1,4 @@
+config BR2_PACKAGE_MONITORWS
+	bool "monitorws"		
+	help
+	  monitorws php
