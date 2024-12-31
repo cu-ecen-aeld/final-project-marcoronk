@@ -1,0 +1,19 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        echo "Starting php webserver ...."
+        /usr/bin/monitorwebserver.sh start
+        ;;
+    stop)
+        echo "Stopping php webserver ...."
+        /usr/bin/monitorwebserver.sh stop  
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+        ;;
+esac
+
+exit 0
+s

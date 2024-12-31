@@ -11,11 +11,12 @@ MONITORWS_GIT_SUBMODULES = YES
 MONITORWS_MODULE_SUBDIRS = php/
 
 define MONITORWS_INSTALL_TARGET_CMDS
-$(INSTALL) -m 0755 $(@D)/php/index.php $(TARGET_DIR)/usr/bin/
+  mkdir -p $(TARGET_DIR)/var/www/
+  $(INSTALL) -m 0755 $(@D)/monitorwebserver.sh $(TARGET_DIR)/usr/bin/
+  $(INSTALL) -m 0755 $(@D)/php/index.php $(TARGET_DIR)/var/www/
 endef 
 
 
 $(eval $(generic-package))
-$(eval $(kernel-module))
 $(info    End Build MONITORWS)
 

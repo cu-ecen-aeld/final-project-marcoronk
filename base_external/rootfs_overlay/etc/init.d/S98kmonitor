@@ -1,0 +1,19 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        echo "Loading monitor kernel modules..."       
+        /opt/monitor/monitor_load.sh 
+        ;;
+    stop)
+        echo "Stopping monitor kernel modules..."    
+        /opt/monitor/monitor_unload.sh 
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+        ;;
+esac
+
+exit 0
+
