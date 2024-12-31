@@ -4,7 +4,7 @@
 #
 ##############################################################
 $(info    Start Build MONITORWS)
-MONITORWS_VERSION = '0e771e38e23c56c55acf62a0be84689c4b471c5a'
+MONITORWS_VERSION = '0b14e4c946e9a8e96e12a9ed33ae2a59b3cb07d1'
 MONITORWS_SITE = 'https://github.com/marcoronk/rm_client'
 MONITORWS_SITE_METHOD = git
 MONITORWS_GIT_SUBMODULES = YES
