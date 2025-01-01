@@ -1,6 +1,6 @@
 # Overview
 
-This page provide's an overview of <studentname's> contribution to the AESD Final Project <Projectname>
+This page provide's an overview of Marco Ronchini contribution to the AESD Final Project <Projectname>
 
 # Video Outline
 See [Demo of SysMonitor](https://www.youtube.com/watch?v=MLRvk1I1FME)
