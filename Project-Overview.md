@@ -6,10 +6,10 @@ This project may seem silly, but the purpose is to demonstrate the learning of t
 <br><br>
 <img src="https://github.com/cu-ecen-aeld/final-project-marcoronk/blob/main/schema_progetto.png" >
 # Target Build System
-Will be uses Buildroot as target build system.
+Buildroot/Qemu on ARM as target build system.
 
 # Hardware Platform
-Application run on a generic Linux distro. In this case will be installed in Qemu.
+Application run on a generic Linux distro. In this case will be installed in Qemu/Arm.
 
 # Open Source Projects Used
 [Php](https://www.php.net) <br>
