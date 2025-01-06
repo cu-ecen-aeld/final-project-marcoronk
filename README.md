@@ -4,7 +4,7 @@ The objective of this project is to develop an application that displays system 
 
 [Click here to read Project Overview](https://github.com/cu-ecen-aeld/final-project-marcoronk/blob/main/Project-Overview.md)
 <br><br>
-[Click here to read Schedule Page)](https://github.com/users/marcoronk/projects/5/views/1)
+[Click here to read Schedule Page](https://github.com/users/marcoronk/projects/5/views/1)
 
 # Source Code Organization
 
