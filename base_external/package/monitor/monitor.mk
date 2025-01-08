@@ -6,7 +6,7 @@
 ##############################################################
 $(info    Start Build MONITORDRIVER)
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-MONITOR_VERSION = '368ccfe2f223e2fc2d37d67030bf91ac64e82daa'
+MONITOR_VERSION = '685816720f286a43fe7b88fe2c457249fd64035e'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
