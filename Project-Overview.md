@@ -20,7 +20,7 @@ Application run on a generic Linux distro. In this case will be installed in Qem
 Aeschar driver for the structure of the project. 
 
 # New Content
-In this project will be used the /proc folder and netlink socket.
+In this project will be used the procfs, sysfs and netlink socket.
 
 # Shared Material
 None for the moment.
