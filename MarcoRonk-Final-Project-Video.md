@@ -3,7 +3,7 @@
 This page provide's an overview of Marco Ronchini contribution to the AESD Final Project <Projectname>
 
 # Video Outline
-See [Demo of SysMonitor](https://www.youtube.com/watch?v=MLRvk1I1FME)
+See [Demo of SysMonitor](https://youtu.be/Kolmcx7uhNU)
 
 
 
@@ -14,8 +14,9 @@ The video demonstrates:
 
 ## Challenges
 My most difficult challenge when implementing this project were:
-* Understand how proc works in a kernel module;
+* Understand how proc and sys works in a kernel module;
 * how works netlink;
+
 
 
 ## Lessons Learned
